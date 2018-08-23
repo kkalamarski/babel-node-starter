@@ -8,6 +8,6 @@ app.set('views', './src/templates')
 
 app.use('/', routes)
 
-app.listen(3000, () => {
-    console.info('Server Listnening at port 3000')
+app.listen(3000, (port) => {
+  console.info('Server Listnening at port 3000')
 })
